@@ -1,0 +1,111 @@
+body{
+  background-image: url(C:\Users\iniha\Desktop\website2\Grocery-Shopping-List\src\assets\handCart.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+  
+}
+.groceryList{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 25px;
+  font-size: 2rem;
+}
+.addItem{
+  margin: 5px;
+  text-align: right;
+  border: 1px solid hsl(0, 0%, 0%);
+  border-radius: 10px;
+  font-size: 2rem;
+}
+.amount{
+  margin: 5px;
+  text-align: left;
+  border: 1px solid black;
+  border-radius: 10px;
+  max-width: 100px;
+  text-align: right;
+  font-size: 2rem;
+}
+.categorySelect{
+  margin: 5px;
+  text-align: right;
+  border: 1px solid hsl(0, 0%, 0%);
+  border-radius: 10px;
+  font-size: 2rem;
+  
+}
+Button{
+  font-size: 0.75rem;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 2rem;
+
+}
+.errorMessage{
+  background-color: rgba(221, 31, 31, 0.822);
+  border-radius: 15px;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+}
+.addButton{
+  background-color: hsl(120, 100%, 25%);
+  margin: 5px;
+
+}
+.addButton:hover{
+  background-color: hsl(120, 100%, 35%);
+}
+.resetButton{
+  background-color: hsl(60, 100%, 45%);
+  font-size: 0.75rem;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 2rem;
+}
+.resetButton:hover{
+  background-color: hsl(60, 100%, 55%);
+  font-size: 0.75rem;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 2rem;
+}
+.checkButton{
+  background-color: transparent;
+}
+.checkButton:hover{
+  background-color: hsl(120, 100%, 35%);
+}
+.deleteButton{
+  background-color: transparent;
+}
+.deleteButton:hover{
+  background-color: hsla(0, 88%, 51%, 0.712);
+}
+.text, .deleteButton, checkButton, .amountText{
+  margin: 10px;
+}
+ul{
+  list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+    display: inline-block; 
+}
+li{
+  list-style: none;
+  margin: auto;
+  display: flex;
+  background-color: rgba(245, 245, 245, 0.75);
+  border-radius: 15px;
+}
+h1, h5{
+  font-family:'Times New Roman', Times, serif;
+  margin: 5px;
+}
