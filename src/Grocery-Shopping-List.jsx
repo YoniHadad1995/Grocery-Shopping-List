@@ -9,7 +9,7 @@ function GroceryShoppingList() {
     const [newCategory, setNewCategory] = useState("");
     const [amount, setAmount] = useState(1);
     const [message, setMessage] = useState("");
-    const [resatItems, setResatItems] =([])
+   
 
     useEffect(() => {
         const fetchData = async () => {
